@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<GlobalConfigurations> 
+	<BrowserConfig>  
+<!--  <chromeDriverConfigPath>src/main/resources/browserconfig/chrome/chromedriver</chromeDriverConfigPath>-->        
+		<chromeDriverConfigPath>E:\chromeDownload\chromedriver_2.25\chromedriver.exe</chromeDriverConfigPath>
+		<firefoxInstallationBin>E:\Mozilla Firefox\firefox.exe</firefoxInstallationBin>
+		<firefoxPluginXpiConfigPath>browserconfig/firefox/firebug/firebug-1.9.2.xpi</firefoxPluginXpiConfigPath>
+	</BrowserConfig>
+	
+	<ApplicationConfig>
+	    <taobaoHomepageUrl>https://world.taobao.com</taobaoHomepageUrl>
+	</ApplicationConfig>
+	 
+</GlobalConfigurations>
