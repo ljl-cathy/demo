@@ -1,4 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: test.ljl.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 15.05 sec
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 0.714 sec <<< FAILURE!
+Given 当我访问淘宝官网(Scenario: 在淘宝页面发送请求，返回结果)  Time elapsed: 0.002 sec  <<< ERROR!
+org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source config.xml
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.XMLConfiguration.<init>(XMLConfiguration.java:243)
+	at test.ljl.DemoImplement.CurDriver(DemoImplement.java:28)
+	at test.ljl.DemoImplement.total(DemoImplement.java:40)
+	at ?.Given 当我访问淘宝官网(todo.feature:18)
+
+Scenario: 在淘宝页面发送请求，返回结果  Time elapsed: 0.003 sec  <<< ERROR!
+org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source config.xml
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.XMLConfiguration.<init>(XMLConfiguration.java:243)
+	at test.ljl.DemoImplement.CurDriver(DemoImplement.java:28)
+	at test.ljl.DemoImplement.total(DemoImplement.java:40)
+	at ?.Given 当我访问淘宝官网(todo.feature:18)
+
